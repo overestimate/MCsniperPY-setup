@@ -1,3 +1,4 @@
+@echo off
 WHERE python
 IF %ERRORLEVEL% NEQ 0 GOTO :nopython
 WHERE git
